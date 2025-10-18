@@ -1,13 +1,24 @@
 @charset "UTF-8";
 /*Paleta de cores: F0FDF4, F3F5F8 (fundo caixas), 4B5563 (subtitulo), 1F2937 (titulo), 16A34A (cor-contorno botão), 21C05C (cor hover botão), 2563EB (cor cículo com n°)
 */
+/** Global Styles **/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1,
+body {
+  background-color: #F0FDF4;
+}
+
+h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #1F2937;
+}
+
 h2,
 p {
   font-family: poppins, sans-serif;
@@ -17,7 +28,7 @@ p {
 h3,
 h4,
 h5 {
-  font-family: inter;
+  font-family: "inter", sans-serif;
 }
 
 h3 {
@@ -26,6 +37,7 @@ h3 {
 
 h4 {
   font-size: 20px;
+  font-weight: 400;
 }
 
 h5 {
@@ -52,14 +64,31 @@ h5 {
 }
 
 .btn-secondary {
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
-  color: #21C05C;
+  background-color: white;
+  color: #2563EB;
+  border-radius: 6px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #2563EB;
+  font-weight: 400;
+  align-items: center;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
+  justify-content: center;
 }
 
-body {
-  background-color: #F0FDF4;
+.btn-secondary:hover {
+  border: #719af4 1px solid;
+  color: #719af4;
 }
 
+.btn-secondary:hover img {
+  filter: invert(52%) sepia(79%) saturate(439%) hue-rotate(199deg) brightness(98%) contrast(98%);
+}
+
+/** Header Section **/
 nav {
   display: flex;
   justify-content: space-between;
@@ -101,4 +130,51 @@ nav ul li a {
 nav button {
   height: 60px;
   width: 189px;
+}
+
+/** Main Section **/
+.hero-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 131px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 40px;
+  max-width: 100%;
+}
+
+.hero h1 {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.hero h4 {
+  padding: 0 0 24px 0;
+}
+
+.buttons-hero {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.buttons-hero button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 62px;
+  width: 189.81px;
+  white-space: nowrap;
+  margin-top: 40px;
+}
+
+.image-hero {
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */
