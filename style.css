@@ -40,6 +40,8 @@ h5 {
   border-radius: 6px;
   font-weight: 400;
   align-items: center;
+  font-family: "poppins", sans-serif;
+  font-size: 16px;
   justify-content: center;
   color: white;
 }
@@ -76,14 +78,14 @@ nav img {
 
 .menu {
   display: flex;
-  gap: 25px;
+  gap: 33px;
   align-items: center;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 33px;
   margin: 0;
   padding: 0;
 }
@@ -97,5 +99,6 @@ nav ul li a {
 }
 
 nav button {
-  padding: 8px 16px;
+  height: 60px;
+  width: 189px;
 }/*# sourceMappingURL=style.css.map */
