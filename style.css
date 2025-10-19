@@ -126,6 +126,7 @@ nav ul li a {
 nav button {
   height: 60px;
   width: 189px;
+  white-space: nowrap;
 }
 
 /** Main Section **/
@@ -257,9 +258,8 @@ nav button {
   height: 481px;
   border-radius: 8px;
   padding-top: 15px;
-  background-color: #e3e3e3;
+  background-color: #F3F5F8;
   padding: 2%;
-  border: 1px solid;
 }
 
 .titulo2 h3 {
@@ -276,12 +276,43 @@ nav button {
 
 .itens {
   display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.itens img {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  margin-top: 12px;
+  margin-right: 5px;
+}
+
+.frases {
+  display: flex;
   flex-direction: column;
-  padding: 1px;
 }
 
 .do {
   color: #09090B;
   font-weight: 700;
   margin: 1%;
+}
+
+#doadores {
+  transition: transform 0.3s ease;
+}
+
+#doadores:hover {
+  transform: scale(1.1);
+}
+
+#adquirentes {
+  transition: transform 0.3s ease;
+}
+
+#adquirentes:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=style.css.map */
