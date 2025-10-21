@@ -44,7 +44,6 @@ h5 {
   background-color: #16A34A;
   cursor: pointer;
   border: #16A34A 1px solid;
-  padding: 10px 30px 10px 30px;
   border-radius: 6px;
   font-weight: 400;
   align-items: center;
@@ -321,8 +320,10 @@ nav button {
 .catalogo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: #F3F5F8;
   padding-top: 7rem;
+  justify-content: center;
 }
 
 .catalogo h2 {
@@ -345,12 +346,17 @@ nav button {
   font-size: 20px;
   font-weight: 400;
   color: #09090B;
+  padding: 15px 0 10px;
 }
 
 .catalogo p {
   font-size: 16px;
   font-weight: 400;
   color: #4B5563;
+  padding: 10px 17px 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .catalogo button {
@@ -359,13 +365,15 @@ nav button {
   font-size: 14px;
   font-family: "Inter", sans-serif;
   color: white;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .itens-catalogo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 0 94px 0;
   align-items: center;
   gap: 3rem;
 }
@@ -379,6 +387,11 @@ nav button {
   background-color: #FFFFFF;
   height: 436px;
   width: 299px;
+  transition: transform 0.3s ease;
+}
+
+.eletronicos:hover {
+  transform: scale(1.1);
 }
 
 .comentarios {
