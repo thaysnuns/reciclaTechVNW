@@ -54,6 +54,8 @@ h5 {
     font-size: 16px;
     justify-content: center;
     color: white;
+    white-space: nowrap;
+
 }
 
 
@@ -157,13 +159,11 @@ nav button {
 }
 
 .hero h1 {
-    width: 100%;
-    padding-bottom: 24px;
+    padding: 0 0 24px 0;
 }
 
 .hero h4 {
-    padding: 0 0 24px 0;
-
+    padding: 0 50px 24px 0;
 }
 
 .buttons-hero {
@@ -203,6 +203,7 @@ nav button {
     align-items: center;
     height: 184px;
 
+
 }
 
 .numbers-statistcs h2 {
@@ -227,8 +228,11 @@ nav button {
 .como-funciona {
     display: flex;
     flex-direction: column;
-    padding: 40px 94px;
+    padding: 40px 94px 0;
     background-color: #F0FDF4;
+    padding-top: 7rem;
+    //border: #09090B 1px solid;
+
 
 }
 
@@ -351,4 +355,86 @@ nav button {
 #adquirentes:hover {
     transform: scale(1.1);
 
+}
+
+// Seção catálogo
+
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F5F8;
+    padding-top: 7rem; //divisão das seções
+    // border: #09090B 1px solid;
+}
+
+.catalogo h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 40px 94px 2px;
+
+}
+
+.catalogo h3 {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    color: #4B5563;
+    padding: 40px 94px;
+
+}
+
+.catalogo h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #09090B;
+}
+
+.catalogo p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4B5563;
+
+}
+
+.catalogo button {
+    height: 37px;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.itens-catalogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 94px 0;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.eletronicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #16A34A;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: 436px;
+    width: 299px;
+    // margin-left: 20px;
+    // margin-right: 20px;
+}
+
+
+//seção comentários
+
+.comentarios {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F5F8;
+    padding-top: 7rem;
 }
