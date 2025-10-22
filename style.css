@@ -399,4 +399,88 @@ nav button {
   flex-direction: column;
   background-color: #F3F5F8;
   padding-top: 7rem;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1F2937;
+  padding: 40px 94px 2px;
+}
+
+.titulo h3 {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #4B5563;
+  padding: 40px 94px;
+}
+
+.sec {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.coment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  border: 1px solid #9CA3AF;
+  border-left: 4px solid #9CA3AF;
+  border-radius: 8px;
+  background-color: white;
+  padding: 35px;
+  width: 338px;
+  height: 300px;
+  gap: 30px;
+}
+
+.coment p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4B5563;
+}
+
+.coment img {
+  width: 120px;
+  height: 24px;
+}
+
+.usuario img {
+  height: 40px;
+  width: 40px;
+}
+
+.usuario {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.dados h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.dados h5.user {
+  color: #09090B;
+}
+
+.sabermais {
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F5F8;
+  padding-top: 7rem;
 }/*# sourceMappingURL=style.css.map */
