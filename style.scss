@@ -148,6 +148,8 @@ nav button {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 131px;
+    padding-bottom: 3rem;
+
 }
 
 .hero {
@@ -201,6 +203,7 @@ nav button {
     justify-content: space-around;
     align-items: center;
     height: 184px;
+    gap: 20px;
 
 
 }
@@ -217,7 +220,6 @@ nav button {
 
 .numbers-statistcs p {
     color: #4B5563;
-    padding-top: 20px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -229,7 +231,7 @@ nav button {
     flex-direction: column;
     padding: 40px 94px 0;
     background-color: #F0FDF4;
-    padding-top: 7rem;
+    padding-bottom: 7rem;
     //border: #09090B 1px solid;
 
 
@@ -363,7 +365,7 @@ nav button {
     flex-direction: column;
     justify-content: center;
     background-color: #F3F5F8;
-    padding-top: 7rem; //divisão das seções
+    padding-bottom: 7rem; //divisão das seções
     // border: #09090B 1px solid;
     justify-content: center;
 }
@@ -450,8 +452,8 @@ nav button {
 .comentarios {
     display: flex;
     flex-direction: column;
-    background-color: #F3F5F8;
-    padding-top: 7rem;
+    background-color: white;
+    padding-bottom: 7rem;
 }
 
 .titulo {
@@ -530,18 +532,60 @@ nav button {
     color: #6B7280;
 }
 
-.dados  h5.user {
+.dados h5.user {
     color: #09090B;
 }
-
-
-
 
 
 //seção saber mais
 .sabermais {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #F3F5F8;
-    padding-top: 7rem;
+    padding-bottom: 7rem;
+    height: 405px;
+    text-align: center;
+    gap: 30px;
+    padding: 20vw;
+
+}
+
+.sabermais h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sabermais h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.sabermais button {
+    height: 44px;
+    width: 189px;
+    border: 1px solid #16A34A;
+    border-radius: 6px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn2 {
+    color: #16A34A;
+    background-color: white;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.btn2:hover {
+    color: #21C05C;
+    border: #21C05C 1px solid;
 }
