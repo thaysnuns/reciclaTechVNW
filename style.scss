@@ -589,3 +589,70 @@ nav button {
     color: #21C05C;
     border: #21C05C 1px solid;
 }
+
+
+//seção rodape
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px 20px;
+    gap: 50px;
+}
+
+.sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    //gap: 90px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    border-bottom: 1px solid #4B5563;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    //border: #16A34A 1px solid;
+    margin: 30px;
+}
+
+.links p {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.title {
+    color: white;
+    font-weight: 700;
+    white-space: nowrap;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.item {
+    color: #9CA3AF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.item a {
+    color: #9CA3AF;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+}
+
+.direitos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #9CA3AF;
+}
