@@ -10,9 +10,17 @@
     box-sizing: border-box;
 }
 
+body,
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+
+}
+
 body {
     background-color: #F0FDF4;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 h1 {
@@ -272,6 +280,7 @@ nav button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: stretch; //
     gap: 5%;
     width: 85vw;
 
@@ -288,22 +297,14 @@ nav button {
 .box {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 491px;
     height: 481px;
     border-radius: 8px;
-    padding-top: 15px;
     background-color: #F3F5F8;
     padding: 2%;
-    //border: 1px solid;
-
-}
-
-.titulo2 h3 {
-    padding-bottom: 25px;
-}
-
-.titulo2 p {
-    padding-bottom: 20px;
+    flex: 1; //
+    min-width: 300px;
 }
 
 .titulo2 img {
@@ -365,8 +366,7 @@ nav button {
     flex-direction: column;
     justify-content: center;
     background-color: #F3F5F8;
-    padding-bottom: 7rem; //divisão das seções
-    // border: #09090B 1px solid;
+    padding-bottom: 7rem;
     justify-content: center;
 }
 
@@ -436,8 +436,6 @@ nav button {
     background-color: #FFFFFF;
     height: 436px;
     width: 299px;
-    // margin-left: 20px;
-    // margin-right: 20px;
     transition: transform 0.3s ease;
 }
 
@@ -485,6 +483,8 @@ nav button {
     display: flex;
     justify-content: center;
     gap: 3vw;
+    margin: 10px;
+
 }
 
 .coment {
@@ -496,7 +496,7 @@ nav button {
     border-left: 4px solid #9CA3AF;
     border-radius: 8px;
     background-color: white;
-    padding: 35px;
+    padding: 30px;
     width: 338px;
     height: 300px;
     gap: 30px;
@@ -600,13 +600,13 @@ nav button {
     background-color: #1F2937;
     padding: 40px 20px;
     gap: 50px;
+    width: 100%;
 }
 
-.sec {
+.sect {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    //gap: 90px;
     padding-bottom: 80px;
     padding-left: 40px;
     border-bottom: 1px solid #4B5563;
@@ -616,8 +616,13 @@ nav button {
     display: flex;
     flex-direction: column;
     text-align: left;
+    margin-right: 80px;
     //border: #16A34A 1px solid;
-    margin: 30px;
+}
+
+.links-container2 {
+    display: flex;
+    flex-direction: row;
 }
 
 .links p {
@@ -644,7 +649,7 @@ nav button {
     text-decoration: none;
 }
 
-.social{
+.social {
     display: flex;
     gap: 15px;
 }
@@ -655,4 +660,170 @@ nav button {
     align-items: center;
     text-align: center;
     color: #9CA3AF;
+}
+
+//responsividade 
+
+@media (max-width: 1038px) {
+
+    // body {
+    //     //width: 100%;
+    //     //border: #09090B 1px solid;
+    // }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        gap: 10px;
+
+
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .hero-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3rem;
+
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+    .hero h4 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0 40px;
+
+    }
+
+    .buttons-hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    //estatisticas
+    .numbers-statistcs {
+        display: flex;
+        gap: 10px;
+        height: 10rem;
+    }
+
+    .status {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    //como funciona
+    .como-funciona {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .clientes-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 0;
+    }
+
+    .titulo {
+        margin-bottom: 10px;
+    }
+
+    .como-funciona h3 {
+        text-align: center;
+    }
+
+    //catalogo
+    .catalogo {
+        width: 100%;
+    }
+
+    .itens-catalogo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    //comentarios
+    .sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    //rodape
+
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sect {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        border: #16A34A 1px solid;
+
+    }
+
+    .links-container2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: #16A34A 1px solid;
+
+    }
+
+    .links {
+        display: flex;
+        //justify-content: center;
+        //align-items: center;
+
+    }
+
+    #title {
+        width: 100%;
+        order: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        flex-direction: row;
+        gap: 10px;
+        border: #16A34A 1px solid;
+
+    }
+
+
+
 }
