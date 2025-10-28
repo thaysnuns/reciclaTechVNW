@@ -696,13 +696,11 @@ nav button {
     gap: 20px;
     align-items: center;
     justify-content: center;
-    border: #16A34A 1px solid;
   }
   .links-container2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: #16A34A 1px solid;
   }
   .links {
     display: flex;
@@ -716,6 +714,198 @@ nav button {
     align-self: center;
     flex-direction: row;
     gap: 10px;
-    border: #16A34A 1px solid;
+  }
+}
+@media (max-width: 767px) {
+  nav {
+    gap: 17px;
+    align-items: center;
+  }
+  nav img {
+    height: 30px;
+    width: 160px;
+  }
+  nav ul li a {
+    font-size: 15px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  nav button {
+    display: none;
+  }
+  .hero-page {
+    width: 100%;
+    align-items: center;
+  }
+  .hero-page .hero {
+    margin: 15px;
+  }
+  .hero-page h1 {
+    font-size: 37px;
+  }
+  .hero-page h4 {
+    text-align: justify;
+    padding: 0;
+  }
+  .hero-page button {
+    height: 50px;
+    width: 130px;
+  }
+  .hero-page button img {
+    display: none;
+  }
+  .hero-page img {
+    margin-top: 30px;
+    height: 300px;
+    width: 260px;
+  }
+  .numbers-statistcs {
+    width: 100%;
+    padding: 0 15px 0 15px;
+  }
+  .numbers-statistcs .status {
+    padding: 0;
+  }
+  .numbers-statistcs h2 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .numbers-statistcs p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .como-funciona h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+  .como-funciona .titulo h3 {
+    text-align: center;
+    padding: 30px 0 30px;
+    margin: 0 100px;
+    width: 100%;
+  }
+  .como-funciona .box {
+    height: 25px;
+    width: 5px;
+    margin: 10px;
+    padding: 0 20px 20px;
+  }
+  .como-funciona .box p {
+    font-size: 15px;
+  }
+  .como-funciona #doadores:hover {
+    transform: scale(1.05);
+  }
+  .como-funciona #adiquirentes:hover {
+    transform: scale(1.05);
+  }
+  .catalogo {
+    width: 100%;
+  }
+  .catalogo h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+  }
+  .catalogo h3 {
+    text-align: center;
+    padding: 30px 0 30px;
+  }
+  .catalogo .itens-catalogo {
+    padding: 0 100px;
+  }
+  .catalogo .eletronicos {
+    height: 450px;
+    width: 300px;
+  }
+  .catalogo .eletronicos:hover {
+    transform: scale(1.05);
+  }
+  .comentarios {
+    width: 100%;
+    padding: 0;
+  }
+  .comentarios h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+  }
+  .comentarios h3 {
+    text-align: center;
+    padding: 30px 0;
+    margin: 0 45px;
+  }
+  .comentarios .sec {
+    gap: 30px;
+  }
+  .comentarios .coment {
+    height: 169px;
+    width: 150;
+    gap: 7px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .comentarios p {
+    font-size: 16px;
+  }
+  .comentarios .usuario {
+    display: none;
+  }
+  .sabermais {
+    width: 100%;
+    margin-top: 4rem;
+    padding: 0;
+  }
+  .sabermais h2 {
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  .sabermais h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 10px;
+  }
+  .sabermais button {
+    font-size: 15px;
+    height: 50px;
+    width: 130px;
+  }
+  .rodape {
+    width: 100%;
+    gap: 25px;
+  }
+  .rodape .sect {
+    padding: 0;
+    margin: 0;
+  }
+  .rodape .sect p {
+    font-size: 15px;
+  }
+  .rodape #title {
+    flex-direction: column;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .rodape .links-container2 {
+    display: none;
+  }
+  .rodape .direitos {
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */
