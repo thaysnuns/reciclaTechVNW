@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #F0FDF4;
+  background-color: #FFFFFF;
   scroll-behavior: smooth;
   margin: 0;
 }
@@ -238,7 +238,6 @@ nav button {
 .titulo {
   display: flex;
   flex-direction: column;
-  margin-bottom: 90px;
 }
 
 .titulo h2 {
@@ -252,6 +251,7 @@ nav button {
   align-items: stretch;
   gap: 5%;
   width: 85vw;
+  padding: 80px;
 }
 
 .clientes-box h3 {
@@ -400,7 +400,7 @@ nav button {
 .comentarios {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #FFFFFF;
   padding-bottom: 7rem;
 }
 

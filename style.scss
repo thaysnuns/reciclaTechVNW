@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #F0FDF4;
+    background-color: #FFFFFF;
     scroll-behavior: smooth;
     margin: 0;
 }
@@ -109,8 +109,6 @@ nav {
     border-bottom: 1px solid #B4AEAE;
     margin: 0 37px;
     padding: 31px 0 10px;
-
-
 }
 
 nav img {
@@ -266,7 +264,6 @@ nav button {
 .titulo {
     display: flex;
     flex-direction: column;
-    margin-bottom: 90px;
 
 }
 
@@ -282,6 +279,8 @@ nav button {
     align-items: stretch;
     gap: 5%;
     width: 85vw;
+    padding: 80px;
+
 
 }
 
@@ -302,7 +301,7 @@ nav button {
     border-radius: 8px;
     background-color: #ECEFF3;
     padding: 2%;
-    flex: 1; //
+    flex: 1; 
     min-width: 300px;
 }
 
@@ -449,8 +448,9 @@ nav button {
 .comentarios {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #FFFFFF;
     padding-bottom: 7rem;
+
 }
 
 .titulo {
