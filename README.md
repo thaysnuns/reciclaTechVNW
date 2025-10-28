@@ -46,8 +46,7 @@ O layout foi desenvolvido a partir de um protótipo no **Figma**, com liberdade 
 
 | Versão Desktop | Versão Mobile |
 |----------------|----------------|
-| (<img width="704" height="440" alt="image" src="https://github.com/user-attachments/assets/db014d3c-5051-4964-b5bb-9a3b0a4abec8" />) 
-(<img width="223" height="496" alt="image" src="https://github.com/user-attachments/assets/34701c52-b7ce-4d33-b729-ff94c2642f7e" />) |
+|<img width="704" height="440" alt="image" src="https://github.com/user-attachments/assets/db014d3c-5051-4964-b5bb-9a3b0a4abec8" /> | <img width="223" height="496" alt="image" src="https://github.com/user-attachments/assets/34701c52-b7ce-4d33-b729-ff94c2642f7e" />|
 
 
 > *As imagens acima representam a interface do site nas duas versões (desktop e mobile).*
