@@ -1,4 +1,4 @@
-<img width="223" height="496" alt="image" src="https://github.com/user-attachments/assets/34701c52-b7ce-4d33-b729-ff94c2642f7e" /># ♻️ Recicla Tech  
+# ♻️ Recicla Tech  
 
 > Conectando pessoas através da sustentabilidade e tecnologia 🌱  
 
@@ -46,7 +46,8 @@ O layout foi desenvolvido a partir de um protótipo no **Figma**, com liberdade 
 
 | Versão Desktop | Versão Mobile |
 |----------------|----------------|
-| ![Desktop](./image/preview-desktop.png) | ![Mobile](./image/preview-mobile.png) |
+| ![Desktop](<img width="704" height="440" alt="image" src="https://github.com/user-attachments/assets/db014d3c-5051-4964-b5bb-9a3b0a4abec8" />
+) | ![Mobile](<img width="223" height="496" alt="image" src="https://github.com/user-attachments/assets/34701c52-b7ce-4d33-b729-ff94c2642f7e" />) |
 
 
 > *As imagens acima representam a interface do site nas duas versões (desktop e mobile).*
