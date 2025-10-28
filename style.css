@@ -186,7 +186,7 @@ nav button {
 }
 
 .numbers-statistcs {
-  background-color: #F3F5F8;
+  background-color: #ECEFF3;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -267,7 +267,7 @@ nav button {
   width: 491px;
   height: 481px;
   border-radius: 8px;
-  background-color: #F3F5F8;
+  background-color: #ECEFF3;
   padding: 2%;
   flex: 1;
   min-width: 300px;
@@ -324,7 +324,7 @@ nav button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F3F5F8;
+  background-color: #ECEFF3;
   padding-bottom: 7rem;
   justify-content: center;
 }
@@ -431,7 +431,6 @@ nav button {
   display: flex;
   justify-content: center;
   gap: 3vw;
-  margin: 10px;
 }
 
 .coment {
@@ -487,7 +486,7 @@ nav button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F3F5F8;
+  background-color: #ECEFF3;
   padding-bottom: 7rem;
   height: 405px;
   text-align: center;
@@ -720,17 +719,20 @@ nav button {
   nav {
     gap: 17px;
     align-items: center;
+    justify-content: center;
+  }
+  nav .menu {
+    align-items: center;
+    justify-content: center;
+  }
+  nav .menu a {
+    font-size: 15px;
+    flex-wrap: nowrap;
+    text-align: center;
   }
   nav img {
     height: 30px;
     width: 160px;
-  }
-  nav ul li a {
-    font-size: 15px;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
   }
   nav button {
     display: none;
@@ -748,6 +750,7 @@ nav button {
   .hero-page h4 {
     text-align: justify;
     padding: 0;
+    margin: 5px;
   }
   .hero-page button {
     height: 50px;
@@ -840,6 +843,7 @@ nav button {
     text-align: center;
     font-size: 30px;
     padding: 0;
+    margin: 0 3px;
   }
   .comentarios h3 {
     text-align: center;
