@@ -38,7 +38,7 @@ https://recicla-tech-vnw.vercel.app/
 
 | Versão Desktop | Versão Mobile |
 |----------------|----------------|
-|<img width="704" height="440" alt="image desktop version" src="https://github.com/user-attachments/assets/179e3084-80ff-4560-8ea9-1dcdfa63923c" /> | <img width="223" height="440" alt="image mobile version" src="https://github.com/user-attachments/assets/34701c52-b7ce-4d33-b729-ff94c2642f7e" />|
+|<img width="704" height="440" alt="image desktop version" src="https://github.com/user-attachments/assets/179e3084-80ff-4560-8ea9-1dcdfa63923c" /> | <img width="223" height="440" alt="image mobile version" src= "https://github.com/user-attachments/assets/7dc0e464-4068-4469-a083-0bb461dda9e9"/>|
 ---
 
 ## 🫂 Autores
